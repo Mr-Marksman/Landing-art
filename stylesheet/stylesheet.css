@@ -1,6 +1,10 @@
 body 
 {
+<<<<<<< HEAD
   font-family: 'Comic Neue', cursive;
+=======
+  font-family: "Comic sans", cursive;
+>>>>>>> 555e7779cac8430f9f55806e016a767e7faeb8d9
 }
 
 .wrapper {
