@@ -8,10 +8,10 @@
 }
 
 .header-container {
+  font-family: 'Open Sans', sans-serif;
   display: block;
   width: 26%;
   margin-right: 10%;
-  font-family: Verdana, sans-serif;
   text-align: center;
 }
 
@@ -25,7 +25,6 @@
   border: 2px solid blue;
   border-radius: 10px;
   text-decoration: none;
-  font-family: sans-serif;
   font-size: 18px;
   line-height: 1;
   font-weight: 100;
