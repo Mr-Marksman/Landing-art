@@ -29,3 +29,15 @@
   line-height: 1;
   font-weight: 100;
 }
+
+@media (max-width: 400px) {
+  .header-container {
+    width: 32%;
+    margin-right: 2%;
+  }
+
+  .header {
+    margin-left: 3%;
+    margin-right: unset;
+  } 
+}

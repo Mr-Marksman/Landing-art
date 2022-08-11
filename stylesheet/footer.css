@@ -44,4 +44,8 @@
   .footer {
     height: 250px;
   }
+
+  .footer-button {
+    width: 70%;
+  }
 }
