@@ -1,5 +1,6 @@
 body 
 {
+  margin: unset;
   font-family: 'Caveat', cursive;
   font-weight: bolder;
   letter-spacing: 2px;
@@ -10,7 +11,7 @@ body
   max-width: 100%;
   width: 1000px;
   height: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .wrapper:after {
@@ -86,11 +87,44 @@ body
   width: 100%;
 }
 
+.price {
+  margin-left: 10%;
+  display: inline-block;
+  margin-right: 10%;
+  padding: 3px;
+  border: 2px solid cyan;
+  border-radius: 15px;
+}
+
+.buy-button {
+  margin-right: 10%;
+  text-align: center;
+  width: 80px;
+  display: inline-block;
+  padding: 4px;
+  background: #328f6d;
+  color: #fff;
+  border: 2px solid blue;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none; 
+}
+
 @media(max-width: 725px) {
+
+  .buy-button {
+    margin-top: 30px;
+    float: right;
+  }
+
+  .price {
+    float: left;
+  }
 
   .column {
     width: 100%;
   }
+
   .left {
     border: unset;
   }

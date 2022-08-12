@@ -1,6 +1,7 @@
 .footer {
-  height: 130px;
-  background: #42A5F5; 
+  height: 150px;
+  flex: auto;
+  background-color: #42A5F5; 
   border-top: 3px solid darkcyan;
 }
 
@@ -40,12 +41,31 @@
   width: 49.5%;
 }
 
-@media (max-width: 630px) {
+.contact {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  padding: 8px;
+  background: #328f6d;
+  color: #fff;
+  border: 2px solid blue;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 1;
+}
+
+@media (max-width: 700px) {
   .footer {
     height: 250px;
   }
 
   .footer-button {
     width: 70%;
+  }
+
+  .contact {
+  margin-left: 30%; 
   }
 }
