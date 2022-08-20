@@ -101,13 +101,18 @@ body
   text-align: center;
   width: 80px;
   display: inline-block;
-  padding: 4px;
+  padding: 6px 4px 6px;
   background: #328f6d;
   color: #fff;
   border: 2px solid blue;
   border-radius: 10px;
   font-size: 18px;
   text-decoration: none; 
+}
+
+.buy-button:hover {
+  padding: 7px 4px 5px;
+  box-shadow: inset 1px 1px 20px darkgreen;
 }
 
 @media(max-width: 725px) {
@@ -123,8 +128,13 @@ body
     float: left;
   }
 
+  .paint {
+    width: 90%;
+  }
+
   .column {
-    width: 100%;
+    justify-content: center;
+    width: 100%
   }
 
   .left {

@@ -12,7 +12,7 @@
 }
 
 .contacts {
-  margin-left: 10%;
+  margin-left: 4%;
   float: left;
 }
 
@@ -20,7 +20,7 @@
   font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
   text-align: center;
-  width: 30%;
+  width: 15%;
   margin-right: 10%;
   float: right;
   display: inline-block;
@@ -31,35 +31,51 @@
   border: 2px solid blue;
   border-radius: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
   font-weight: 100;
 }
 
-.footer-column {
+.footer-button:hover {
+  padding-top: 14px;
+  padding-bottom: 10px;
+  box-shadow: inset 2px 2px 20px darkgreen;
+}
+
+.footer-column.left {
+  width: 60%;
   float: left;
-  width: 49.5%;
+}
+
+.footer-column.right {
+  float: left;
+  width: 39.5%;
 }
 
 .contact {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: center;
-  width: 100px;
   display: inline-block;
   padding: 8px;
-  background: #328f6d;
-  color: #fff;
-  border: 2px solid blue;
   font-size: 18px;
+  color: darkgreen;
+}
+
+.contact:hover {
   text-decoration: none;
-  line-height: 1;
+  color: green;
+}
+
+.sans-serif {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 @media (max-width: 700px) {
   
   .footer {
-    height: 270px;
+    height: 340px;
   }
 
   .footer-button {
@@ -67,6 +83,7 @@
   }
 
   .contact {
-  margin-left: 30%; 
+    float: left;
+    margin-left: 15%; 
   }
 }
